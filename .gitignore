@@ -127,3 +127,28 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+#vscode
+.vscode
+
+djvue/frontend/.DS_Store
+djvue/frontend/node_modules
+djvue/frontend/dist
+
+
+# local env files
+djvue/frontend/.env.local
+djvue/frontend/.env.*.local
+
+# Log files
+djvue/frontend/npm-debug.log*
+djvue/frontend/yarn-debug.log*
+djvue/frontend/yarn-error.log*
+djvue/frontend/pnpm-debug.log*
+
+# Editor directories and files
+djvue/frontend/.idea
+djvue/frontend/*.suo
+djvue/frontend/*.ntvs*
+djvue/frontend/*.njsproj
+djvue/frontend/*.sln
+djvue/frontend/*.sw?
